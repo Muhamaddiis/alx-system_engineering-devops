@@ -6,3 +6,4 @@ Display current directory contents
  a script that creates a directory named my_first_directory in the /tmp/ directory
 Betty in my first directory
 firstdeletion
+firstdirdeletion
