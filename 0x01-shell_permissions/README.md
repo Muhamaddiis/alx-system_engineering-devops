@@ -6,3 +6,4 @@ a script that creates an empty file called hello.
 a script that adds execute permission to the owner of the file hello.
 6.a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 7. a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+a script that sets the permission to the file hello as follows owner:no permission at all group: no permission at all other users:all the permissions
