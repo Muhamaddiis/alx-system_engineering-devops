@@ -25,3 +25,7 @@ a command that finds all empty files and directories in the current directory an
 a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
  a script that decodes acrostics that use the first letter of each line.
 a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+a script that converts a number from base 10 to base 16.
+a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+ a script that prints every other line from the input, starting with the first line.
+a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
