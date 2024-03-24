@@ -5,7 +5,6 @@
     provider => 'pip3',
   }
 
-
   package {'python3-pip':
     ensure   => installed,
   }
