@@ -1,4 +1,4 @@
-#install version (2.1.0) of flask using pip
+#install flask version (2.1.0) of flask using pip
 
   package {'flask':
     ensure   => '2.1.0',
