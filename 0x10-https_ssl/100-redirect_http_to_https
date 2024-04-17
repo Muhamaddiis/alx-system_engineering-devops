@@ -41,11 +41,11 @@ frontend sierralive-frontend
         default_backend sierralive-backend
 
 frontend sierralive-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/sierralive.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.sierralive.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend sierralive-backend
 
-backend sierralive-backend
-        balance roundrobin
-        server 151666-web-01 100.25.190.21:80 check
-        server 151666-web-02 54.160.77.90:80 check
+backend sierralive-tech-backend
+         balance roundrobin
+         server 167109-web-01 54.157.139.166:80 check
+         server 167109-web-02 54.175.254.22:80 check
