@@ -41,7 +41,7 @@ frontend sierralive-frontend
         default_backend sierralive-backend
 
 frontend sierralive-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/sierralive.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.sierralive.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend sierralive-backend
 
